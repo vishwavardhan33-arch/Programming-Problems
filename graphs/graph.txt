@@ -1,0 +1,3 @@
+when to use :
+-when there is relationship or connection(roads/networks)
+-games with state changes
