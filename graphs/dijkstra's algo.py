@@ -3,6 +3,7 @@
 # algorithm for finding the shortest paths from a single 
 # starting node to all other nodes in a weighted graph, provided
 #  all edge weights are non-negative
+# time complexity =  O((V+E)*logV)
 
 import heapq
 import sys
