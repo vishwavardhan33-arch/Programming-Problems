@@ -1,0 +1,6 @@
+we take best options at each step
+-only possible when optimal substructure is possible
+-O(nlogn) or O(n)
+eg :
+    we are given n activities with start and end time. select max num of activities that dont overlap
+    
