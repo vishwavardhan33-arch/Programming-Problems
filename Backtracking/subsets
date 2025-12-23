@@ -1,0 +1,19 @@
+class Solution(object):
+    def subsets(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        results = []
+        def f(i,path):
+            if i == len(nums):
+                results.append(path[:])
+                return
+            # choice 1: include element
+            path.append(nums[i])
+            f(i+1,path)
+            path.pop()
+            # choice 2 : skip element
+            f(i+1,path)
+        f(0,[])
+        return results
